@@ -24,18 +24,14 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  ────  *DyLux  ┃ ᴮᴼᵀ*  ────
+  ────  *Andrea  ┃ ᴮᴼᵀ*  ────
 
 👋🏻 _Hola_ *%name*
 
 🏆 Rango : *%role*
 🧿 Nivel : *%level* 
 📊 Database: %rtotalreg de %totalreg
-─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/F4lGWb1WXgM
-▢ Descarga *FGWhatsApp*
-• https://fg98.epizy.com
+─────
 ─────────────
 %readmore
 Ⓟ = Premium
@@ -149,7 +145,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     
     conn.sendHydrated(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
-      ['ꨄ︎ Apoyar', '/donate'],
+     
       ['⏍ Info', '/botinfo'],
       ['✆ Owner', '/owner']
     ], m)
