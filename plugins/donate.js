@@ -4,11 +4,11 @@ let handler =  m => m.reply(`
 puedes donar si quieres ayudar a mantener el bot activo
 
 ▢ *PayPal*
-• *Link :* https://paypal.me/fg98f
+• *Link :* wa.me/573125484672
 ▢ *Mercado Pago Arg*
-• *Link :* https://mpago.la/1F3r6JH
+• *Link :* wa.me/573125484672
 ▢ *Tigo Money*
-• *N° :*  78230727
+• *N° :*  wa.me/573125484672
 
 _Al donar consigues_  *Premium* 
 
@@ -16,7 +16,7 @@ _Al donar consigues_  *Premium*
 • comandos de *menu premium* desbloqueado
 • Limite de *Descargas +250 MB*, podrá descargar archivos de 300 mb que es lo que permite WhatsApp :'v
 
-Si donas contactame por t.me/fg98f
+Si donas contactame por wa.me/573125484672
 `.trim())
 handler.help = ['donar']
 handler.tags = ['main']
